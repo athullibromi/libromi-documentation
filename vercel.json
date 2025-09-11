@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "framework": null,
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "headers": { "cache-control": "max-age=31536000, immutable" }
+    },
+    {
+      "src": "/(.*\\.(?:js|css|png|jpe?g|gif|svg|ico|woff2?|ttf|eot))",
+      "headers": { "cache-control": "max-age=31536000, immutable" }
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
