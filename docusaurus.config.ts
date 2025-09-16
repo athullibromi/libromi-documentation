@@ -57,6 +57,18 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'api',
+        path: 'api',
+        routeBasePath: 'api',
+        sidebarPath: './sidebars-api.ts',
+      },
+    ],
+  ],
+
   // Enable local search
   themes: [
     [
@@ -87,6 +99,7 @@ const config: Config = {
           position: 'left',
           label: 'Documentation',
         },
+        {to: '/api', label: 'API Reference', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {type: 'search', position: 'right'},
         {
