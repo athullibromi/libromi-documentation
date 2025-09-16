@@ -25,9 +25,8 @@ https://wa-api.cloud/api/v1
 
 ## Need Help?
 
-- Check our [troubleshooting guide](advanced/troubleshooting)
-- Browse [integration examples](advanced/integrations)
-- Contact our support team
+- [Advanced Integrations & Support](advanced/support)
+- Contact our support team for assistance
 
 ---
 
