@@ -1,109 +1,49 @@
----
-sidebar_position: 3
----
+# How to Export Your Contacts
 
-# How to Export Contacts
+Exporting contacts from Libromi Connect allows you to create backups, perform external data analysis, or import your audience into other marketing platforms. The powerful filtering options enable you to download precisely the segments you need.
 
-📤 Learn how to export your contact data from Libromi Connect for backup, analysis, or integration purposes.
+This guide will walk you through the process of exporting your contacts into a CSV or Excel file.
 
-## Export Options
+## Step 1: Navigate to the Export Section
 
-Libromi Connect provides flexible export options for your contact data:
+1. From the main dashboard, click on the **Contacts** icon in the left-side navigation menu
+2. Select **Import & Export** from the submenu
+3. On the "Import & Export" page, click the **Export** tab at the top
 
-### Full Contact Export
+## Step 2: Configure Your Export Options
 
-#### Step 1: Access Export Feature
-- Navigate to the Contacts section
-- Click on the "Export" button in the top toolbar
+1. Click the purple **Export Contacts** button. This will open the "Export Options" pop-up window where you can customize your file
 
-#### Step 2: Select Export Format
-Choose from available formats:
-- **CSV** (Comma Separated Values)
-- **Excel** (.xlsx)
-- **JSON** (for developers)
+### Choose Export Format
 
-#### Step 3: Configure Export Settings
-Select which fields to include:
-- ☑️ Name
-- ☑️ Phone Number
-- ☑️ Email
-- ☑️ Tags
-- ☑️ Notes
-- ☑️ Date Added
-- ☑️ Last Interaction
+- **CSV File**: A plain text format that is universally compatible with most spreadsheet and database applications
+- **Excel File**: A native Microsoft Excel format (.xlsx), which is best if you plan to work with the data directly in Excel
 
-#### Step 4: Download Export File
-- Click "Generate Export"
-- Download the file when processing is complete
+### Apply Filters (Optional)
 
-### Filtered Export
+Use the filters to create a targeted list of contacts for your export. You can use any combination of the following:
 
-#### Apply Filters First
-1. Use the search and filter options to narrow down contacts
-2. Filter by tags, date ranges, or activity status
-3. Review the filtered results
+#### Created After
 
-#### Export Filtered Results
-- Click "Export Filtered" to export only the visible contacts
-- Follow the same format selection process
+Click the "Select date" field to open a calendar. Choose a date to export only the contacts that were added to your system after this specific date.
 
-### Scheduled Exports
+#### Do Not Disturb (DND) Status
 
-#### Automatic Export Setup
-- Set up automatic exports on a schedule
-- Choose daily, weekly, or monthly exports
-- Receive exports via email or API webhook
+This filter allows you to segment contacts based on whether they have opted out of receiving messages:
 
-## Export Use Cases
+- **All**: Exports all contacts, regardless of their DND status
+- **DND Only**: Exports only the contacts who have an active DND status
 
-📊 **Analytics**: Export for external analysis and reporting
-🔄 **Backup**: Regular data backups for security
-📧 **Email Marketing**: Import to email marketing platforms
-📱 **CRM Integration**: Sync with other CRM systems
-📋 **Reporting**: Generate detailed contact reports
+#### Contact Groups
 
-## Export Best Practices
+Click the dropdown menu to select specific groups. Check the box next to each group you wish to include in the export. This is perfect for downloading specific audience segments.
 
-🔒 **Security & Compliance:**
-- Ensure data privacy compliance (GDPR, etc.)
-- Use secure file transfer methods
-- Limit access to exported files
+2. After setting your desired format and filters, click the **Export Contacts** button at the bottom of the window to begin the process
 
-📅 **Organization:**
-- Regular backup schedules
-- Use meaningful file names with dates
-- Store exports in secure locations
+## Step 3: Download Your Exported File
 
-🏷️ **Data Management:**
-- Use tags for organized exports
-- Clean data before exporting
-- Document export purposes
-
-## File Formats Explained
-
-### CSV Format
-- Compatible with most spreadsheet applications
-- Easy to import into other systems
-- Lightweight and universal
-
-### Excel Format
-- Rich formatting options
-- Multiple sheets support
-- Formula and calculation support
-
-### JSON Format
-- Developer-friendly format
-- API integration ready
-- Structured data format
-
-## Coming Soon
-
-🚀 **Advanced Export Features:**
-- Custom export templates
-- Automated export pipelines
-- Real-time data sync
-- Advanced filtering options
-
-:::warning
-Always verify exported data before using it in other systems. Double-check field mappings and data integrity.
-:::
+1. The export process runs in the background and does not provide an immediate download
+2. Your new export job will appear at the top of the **Export History** list on the "Import & Export" page. Its initial status will be "Processing"
+3. Once the file is ready, the status will change to **COMPLETED**
+4. You can click **Details** to expand the entry and review the exact filters that were applied to that specific export, ensuring it's the correct file
+5. Click the green **Download** button to save the contact file to your computer
