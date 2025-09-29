@@ -103,8 +103,8 @@ const config: Config = {
         {to: '/blog', label: 'Blog', position: 'left'},
         {type: 'search', position: 'right'},
         {
-          href: 'https://github.com/libromi/libromi-connect-docs',
-          label: 'GitHub',
+          href: 'https://panel.libromi.cloud/login',
+          label: 'Libromi',
           position: 'right',
         },
       ],

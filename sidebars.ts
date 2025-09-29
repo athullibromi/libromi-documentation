@@ -36,7 +36,6 @@ const sidebars: SidebarsConfig = {
         'team-inbox/tags',
         'team-inbox/assign-chats',
         'team-inbox/block-unblock-customers',
-        'team-inbox/manage-conversations',
       ],
     },
     {
@@ -107,6 +106,17 @@ const sidebars: SidebarsConfig = {
           ],
         },
         'chatbot/creating-chatbot',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Webhooks',
+      items: [
+        'webhook/index',
+        'webhook/setup',
+        'webhook/events',
+        'webhook/security',
+        'webhook/troubleshooting',
       ],
     },
   ],
